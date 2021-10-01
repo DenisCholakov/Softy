@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DijkstraAndMSTAlgorithms", "DijkstraAndMSTAlgorithms\DijkstraAndMSTAlgorithms.csproj", "{A1CA8F63-3091-4F86-A2F9-6F00075129A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{4ED5CC79-57B0-49D2-B8D5-4458CB750D0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MST", "MST\MST.csproj", "{DE0F0071-5115-4898-8A6B-649A630FD91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimsAlgorithm", "PrimsAlgorithm\PrimsAlgorithm.csproj", "{5D76AC53-65A4-40B3-9283-7BB25C8B7926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellmanFord", "BellmanFord\BellmanFord.csproj", "{CC3EC1C4-FA3B-4C2D-8EF3-559FBD34D296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestPath", "LongestPath\LongestPath.csproj", "{F98491C3-47E3-4E61-8E95-0B0B11CF93BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1CA8F63-3091-4F86-A2F9-6F00075129A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CA8F63-3091-4F86-A2F9-6F00075129A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CA8F63-3091-4F86-A2F9-6F00075129A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CA8F63-3091-4F86-A2F9-6F00075129A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED5CC79-57B0-49D2-B8D5-4458CB750D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED5CC79-57B0-49D2-B8D5-4458CB750D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED5CC79-57B0-49D2-B8D5-4458CB750D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED5CC79-57B0-49D2-B8D5-4458CB750D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE0F0071-5115-4898-8A6B-649A630FD91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0F0071-5115-4898-8A6B-649A630FD91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0F0071-5115-4898-8A6B-649A630FD91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0F0071-5115-4898-8A6B-649A630FD91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D76AC53-65A4-40B3-9283-7BB25C8B7926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D76AC53-65A4-40B3-9283-7BB25C8B7926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D76AC53-65A4-40B3-9283-7BB25C8B7926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D76AC53-65A4-40B3-9283-7BB25C8B7926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3EC1C4-FA3B-4C2D-8EF3-559FBD34D296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3EC1C4-FA3B-4C2D-8EF3-559FBD34D296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3EC1C4-FA3B-4C2D-8EF3-559FBD34D296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3EC1C4-FA3B-4C2D-8EF3-559FBD34D296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F98491C3-47E3-4E61-8E95-0B0B11CF93BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98491C3-47E3-4E61-8E95-0B0B11CF93BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98491C3-47E3-4E61-8E95-0B0B11CF93BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98491C3-47E3-4E61-8E95-0B0B11CF93BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D34CCFE8-5748-48EA-A5A3-1AB39DAA3D94}
+	EndGlobalSection
+EndGlobal

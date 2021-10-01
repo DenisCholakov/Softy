@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BellmanFordLongestPathExercise", "BellmanFordLongestPathExercise\BellmanFordLongestPathExercise.csproj", "{FCC84CFA-022D-4477-AD2D-096ABE744A93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostReliablePath", "MostReliablePath\MostReliablePath.csproj", "{FD6A1F15-61CE-40E0-ABC8-DA281F08533A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapTownTour", "CheapTownTour\CheapTownTour.csproj", "{85A72324-FB90-47E3-8E8C-05BB0934E14E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Undefined", "Undefined\Undefined.csproj", "{421353A8-E746-42E3-A707-58CBD0A434A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigTrip", "BigTrip\BigTrip.csproj", "{E906862A-1812-4FF7-9A82-6277EA84C56A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CableNetwork", "CableNetwork\CableNetwork.csproj", "{65E083B5-A609-4647-8C20-E257031D6020}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC84CFA-022D-4477-AD2D-096ABE744A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC84CFA-022D-4477-AD2D-096ABE744A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC84CFA-022D-4477-AD2D-096ABE744A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC84CFA-022D-4477-AD2D-096ABE744A93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD6A1F15-61CE-40E0-ABC8-DA281F08533A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6A1F15-61CE-40E0-ABC8-DA281F08533A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6A1F15-61CE-40E0-ABC8-DA281F08533A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6A1F15-61CE-40E0-ABC8-DA281F08533A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A72324-FB90-47E3-8E8C-05BB0934E14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A72324-FB90-47E3-8E8C-05BB0934E14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A72324-FB90-47E3-8E8C-05BB0934E14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A72324-FB90-47E3-8E8C-05BB0934E14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421353A8-E746-42E3-A707-58CBD0A434A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421353A8-E746-42E3-A707-58CBD0A434A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421353A8-E746-42E3-A707-58CBD0A434A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421353A8-E746-42E3-A707-58CBD0A434A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E906862A-1812-4FF7-9A82-6277EA84C56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E906862A-1812-4FF7-9A82-6277EA84C56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E906862A-1812-4FF7-9A82-6277EA84C56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E906862A-1812-4FF7-9A82-6277EA84C56A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E083B5-A609-4647-8C20-E257031D6020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E083B5-A609-4647-8C20-E257031D6020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E083B5-A609-4647-8C20-E257031D6020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E083B5-A609-4647-8C20-E257031D6020}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD6FEA89-077A-4D22-A934-7DA5D22015AD}
+	EndGlobalSection
+EndGlobal
