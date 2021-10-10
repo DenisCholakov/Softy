@@ -6,24 +6,19 @@ function attachEventsListeners() {
     seconds: 86400,
   };
 
-  const daysInput = document.getElementById("days");
-  const hoursInput = document.getElementById("hours");
-  const minutesInput = document.getElementById("minutes");
-  const secondsInput = document.getElementById("seconds");
+  const inputs = Object.keys(ratios)
+    .map((unit) => document.getElementById(unit))
+    .reduce((acc, curr) => Object.assign(acc, { [curr.id]: curr }), {});
 
-  document.getElementById("daysBtn").addEventListener("click", onConvert);
-  document.getElementById("hoursBtn").addEventListener("click", onConvert);
-  document.getElementById("minutesBtn").addEventListener("click", onConvert);
-  document.getElementById("secondsBtn").addEventListener("click", onConvert);
+  document.querySelector("main").addEventListener("click", onConvert);
 
   function onConvert(ev) {
-    const input = ev.target.parentElement.querySelector('input[type="text"]');
+    if ((ev.target.tagName = "INPUT" && ev.target.type == "button")) {
+      const input = ev.target.parentElement.querySelector('input[type="text"]');
 
-    const time = convert(Number(input.value), input.id);
-    daysInput.value = time.days;
-    hoursInput.value = time.hours;
-    minutesInput.value = time.minutes;
-    secondsInput.value = time.seconds;
+      const time = convert(Number(input.value), input.id);
+      Object.keys(time).forEach((k) => (inputs[k].value = time[k]));
+    }
   }
 
   function convert(value, unit) {
