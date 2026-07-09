@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4efe7;
+  --foreground: #18212f;
+  --panel: rgba(255, 251, 247, 0.88);
+  --panel-strong: rgba(255, 255, 255, 0.96);
+  --line: rgba(24, 33, 47, 0.1);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--foreground);
+  background-image:
+    radial-gradient(
+      circle at top left,
+      rgba(220, 166, 95, 0.2),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(88, 129, 87, 0.16),
+      transparent 24%
+    ),
+    linear-gradient(180deg, #f8f4ed 0%, #f1ebe2 100%);
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+.hero-panel,
+.panel {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  box-shadow: 0 20px 60px rgba(83, 63, 34, 0.08);
+  backdrop-filter: blur(18px);
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #8c5f2a;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid rgba(24, 33, 47, 0.12);
+  border-radius: 1rem;
+  background: var(--panel-strong);
+  padding: 0.9rem 1rem;
+  color: #18212f;
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input:focus {
+  border-color: rgba(140, 95, 42, 0.55);
+  box-shadow: 0 0 0 4px rgba(140, 95, 42, 0.12);
+}
+
+.button-primary,
+.button-secondary,
+.button-danger {
+  border-radius: 999px;
+  padding: 0.7rem 1.1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition:
+    transform 0.18s ease,
+    opacity 0.18s ease,
+    background-color 0.18s ease,
+    border-color 0.18s ease;
+}
+
+.button-primary:disabled,
+.button-secondary:disabled,
+.button-danger:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.button-primary:hover,
+.button-secondary:hover,
+.button-danger:hover {
+  transform: translateY(-1px);
+}
+
+.button-primary {
+  border: 1px solid transparent;
+  background: #18212f;
+  color: #f8f4ed;
+}
+
+.button-secondary {
+  border: 1px solid rgba(24, 33, 47, 0.14);
+  background: rgba(255, 255, 255, 0.75);
+  color: #18212f;
+}
+
+.button-danger {
+  border: 1px solid transparent;
+  background: #a33a2b;
+  color: #fff7f5;
+}

@@ -1,6 +1,6 @@
-package org.service;
+package org.softuni.service;
 
-import org.model.User;
+import org.softuni.model.User;
 
 import java.util.Optional;
 

@@ -1,11 +1,13 @@
-package org.repository;
+package org.softuni.repository;
 
-import org.model.User;
+import org.softuni.model.User;
+import org.springframework.stereotype.Repository;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.List;
 
+@Repository("fileRepo")
 public class FileBasedUserRepository implements UserRepository {
 
     @Override

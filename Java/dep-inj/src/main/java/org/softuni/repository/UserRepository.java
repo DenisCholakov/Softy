@@ -1,6 +1,6 @@
-package org.repository;
+package org.softuni.repository;
 
-import org.model.User;
+import org.softuni.model.User;
 
 import java.util.List;
 

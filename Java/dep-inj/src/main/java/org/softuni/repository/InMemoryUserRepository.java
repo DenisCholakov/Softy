@@ -1,9 +1,11 @@
-package org.repository;
+package org.softuni.repository;
 
-import org.model.User;
+import org.softuni.model.User;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository("memoryRepo")
 public class InMemoryUserRepository implements UserRepository{
 
     @Override
